@@ -1,0 +1,20 @@
+# Lab Setup
+
+## Host
+
+- Ubuntu server on an MSI Cyborg 15 laptop
+- Targets are isolated from the rest of my network and not exposed to the internet
+
+## Targets
+
+### OWASP Juice Shop
+- Intentionally insecure web application
+- Used for: XSS, SQL injection, broken access control, authentication flaws
+
+### crAPI (Completely Ridiculous API)
+- Intentionally vulnerable API
+- Used for: BOLA/IDOR, broken authentication, mass assignment, excessive data exposure
+
+### Metasploitable 2
+- Intentionally vulnerable Linux VM
+- Used for: Nmap scanning, service enumeration, Metasploit practice
