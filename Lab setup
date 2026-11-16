@@ -3,7 +3,14 @@
 ## Host
 
 - Ubuntu server on an MSI Cyborg 15 laptop
-- Targets are isolated from the rest of my network and not exposed to the internet
+- Virtualization: VirtualBox
+- Network: isolated host-only network, so targets are separated from the rest of my network and not exposed to the internet
+
+## Attacker Machine
+
+### Kali Linux
+- Attack box, running in VirtualBox on the same host-only network as the targets
+- Used for: Nmap, Burp Suite, Metasploit, and other testing tools against the targets below
 
 ## Targets
 
